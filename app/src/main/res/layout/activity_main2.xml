@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.roony.activity.MainActivity">
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="222输入昵称"
+        android:textSize="30dp"
+        />
+
+    <EditText
+        android:id="@+id/user2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Id"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:text="back"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
